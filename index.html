@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shayan for Wajo</title>
+<meta name="description" content="Shayan Toor for Wajo: product, growth and applied AI, pointed wherever Fo needs it most.">
+<meta property="og:title" content="Shayan for Wajo">
+<meta property="og:description" content="A task for Fo: find someone who can take Fo from launch to everywhere. Found one.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#ffffff; --paper-2:#f3f3ef; --ink:#16181d; --ink-2:#4a4f58; --mute:#8a8f98; --line:#e3e3de;
+    --done:#1f7a4d; --done-soft:#e4f3ea; --max:640px;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#121316; --paper-2:#1b1d22; --ink:#f1f1ee; --ink-2:#c3c6cc; --mute:#858b95; --line:#2a2d34;
+      --done:#58c58a; --done-soft:#17302396;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#121316; --paper-2:#1b1d22; --ink:#f1f1ee; --ink-2:#c3c6cc; --mute:#858b95; --line:#2a2d34;
+    --done:#58c58a; --done-soft:#17302396;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0; background:var(--paper); color:var(--ink); font-family:"Instrument Sans", system-ui, sans-serif; font-size:17px; line-height:1.55}
+  h1,h2,h3{font-family:"Bricolage Grotesque", "Instrument Sans", sans-serif; letter-spacing:-0.015em; line-height:1.1; margin:0}
+  h1{font-size:clamp(2.1rem, 7vw, 3.2rem); font-weight:800}
+  h2{font-size:clamp(1.4rem, 4.5vw, 1.8rem); font-weight:700; margin-bottom:.8rem}
+  h3{font-size:1.1rem; font-weight:700}
+  p{margin:0 0 1rem}
+  a{color:inherit}
+  .wrap{max-width:var(--max); margin:0 auto; padding:0 16px}
+  section{padding:2.6rem 0}
+  section + section{border-top:1px solid var(--line)}
+  .quiet{color:var(--ink-2)}
+
+  .hero{padding:2rem 0 2.6rem}
+  .thread{display:flex; flex-direction:column; gap:.7rem; margin:0 0 1.8rem}
+  .bubble{max-width:92%; padding:.8rem 1rem; border-radius:18px; font-size:1rem; line-height:1.45}
+  .bubble.you{align-self:flex-end; background:var(--ink); color:var(--paper); border-bottom-right-radius:6px}
+  .bubble.fo{align-self:flex-start; background:var(--paper-2); border-bottom-left-radius:6px}
+  .bubble .who{display:block; font-size:.8rem; color:var(--mute); margin-bottom:.25rem}
+  .bubble.you .who{color:#b9bcc3}
+  .status{display:flex; align-items:center; gap:.5rem; font-size:.9rem; color:var(--ink-2)}
+  .status .dot{width:9px; height:9px; border-radius:50%; background:var(--done)}
+  .hero h1{margin:.4rem 0 .5rem}
+  .byline{font-weight:500; color:var(--ink-2); margin-bottom:1rem}
+  .cta-row{display:flex; flex-wrap:wrap; gap:.6rem; margin-top:1.2rem}
+  .btn{display:inline-block; padding:.75rem 1.15rem; border-radius:999px; font-weight:600; text-decoration:none; border:1.5px solid var(--ink); font-size:.98rem}
+  .btn.primary{background:var(--ink); color:var(--paper)}
+  .btn:focus-visible,a:focus-visible{outline:3px solid var(--done); outline-offset:3px}
+
+  .photo{display:grid; grid-template-columns:1fr; gap:1.2rem; align-items:center}
+  .photo img{width:100%; height:auto; border-radius:14px; display:block; border:1px solid var(--line)}
+  .photo p{color:var(--ink-2)}
+  @media (min-width:600px){.photo{grid-template-columns:5fr 7fr}}
+
+  .done-list{list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:.9rem}
+  .done-list li{display:grid; grid-template-columns:26px 1fr; gap:.7rem; align-items:start}
+  .check{width:26px; height:26px; border-radius:50%; background:var(--done-soft); color:var(--done); display:grid; place-items:center; margin-top:.1rem}
+  .check svg{width:15px; height:15px}
+  .done-list strong{font-weight:600}
+  .done-list p{margin:0; color:var(--ink-2)}
+
+  .plays{display:flex; flex-direction:column; gap:1rem}
+  .plays article{padding:1rem 1.2rem; border:1.5px solid var(--line); border-radius:14px}
+  .plays h3{margin-bottom:.3rem}
+  .plays p{margin:0; color:var(--ink-2)}
+
+  .contact{background:var(--paper-2); border-radius:18px; padding:1.5rem}
+  .contact p{max-width:44ch}
+  .links{display:flex; flex-wrap:wrap; gap:.6rem 1.4rem; margin-top:.8rem; font-weight:500}
+  footer{padding:1.6rem 0 2.6rem; font-size:.86rem; color:var(--mute)}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+  <section class="hero">
+    <div class="thread" aria-label="A task handed to Fo">
+      <div class="bubble you"><span class="who">Shivani</span>Find me someone who can take Fo from launch to everywhere. Product, growth, builds and scales it. Must get sh*t done.</div>
+      <div class="bubble fo"><span class="who">Fo</span>Searching the Claude Founder House… Found one. He walked up after your talk.</div>
+      <div class="status"><span class="dot"></span>Task complete.</div>
+    </div>
+    <h1>Shayan Toor, for Wajo.</h1>
+    <p class="byline">Product, Growth &amp; Applied AI at Innowi.</p>
+    <p class="quiet">I take things from zero to real customers, and I build with agents. I don't know yet where you need me most. Point me.</p>
+    <div class="cta-row">
+      <a class="btn primary" href="#talk">Let's talk</a>
+      <a class="btn" href="#plan">Three plays</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="photo">
+      <img src="founder-house.jpg" alt="Shayan Toor and Shivani Poddar at the Claude Founder House, SF Tech Week" width="900" height="1200" onerror="this.parentNode.style.gridTemplateColumns='1fr';this.remove()">
+      <div>
+        <h2>You said jugaar. That's my name.</h2>
+        <p>People around me call me JugaarKing: give me a problem and no budget and I'll find the way through. When you said the word in your talk, I knew this was my room. Fo is jugaar at scale: an agent with a phone, an inbox and a card, and a human when it needs one. It finishes the job. That's the only kind of agent I'd hand my life to.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Three things I've already done</h2>
+    <ul class="done-list">
+      <li><span class="check" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3 3 7-7"/></svg></span>
+        <p><strong>0 to 700–800 restaurant locations.</strong> Co-built Innowi's kiosk, then the full platform (POS, online ordering, website builder, AI marketing), for owners who decide on trust, not specs. Partnerships include US Bank, Fiserv and Elavon.</p></li>
+      <li><span class="check" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3 3 7-7"/></svg></span>
+        <p><strong>18+ months of production AI.</strong> Agentic customer workflows, AI marketing automation, and an analytics co-pilot over 700+ locations. Not an ML engineer; the person between your engineers and your users who reads the trace and decides what to build next.</p></li>
+      <li><span class="check" aria-hidden="true"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3 3 7-7"/></svg></span>
+        <p><strong>Seven small businesses running on agents I built.</strong> I started a company to do it because I believed agents solve real problems. Then I heard you talk about Fo, and it was the same belief, aimed at everyone. I want to bring everything I've learned into it.</p></li>
+    </ul>
+  </section>
+
+  <section id="plan">
+    <h2>Three plays I'd run. You pick.</h2>
+    <div class="plays">
+      <article>
+        <h3>Distribution for consumer Fo</h3>
+        <p>Consumer agents win on channels, not ads. Turn the Fellows program into a measured referral engine, then land the two or three partners (banks, carriers, employers) that put Fo in front of a million people. I've built those partner channels at Innowi.</p>
+      </article>
+      <article>
+        <h3>The first 500 businesses</h3>
+        <p>If Wajo for Business is a priority, I'd own it outright: one wedge vertical, a partner and ISO channel, and I bring in the first 25 accounts myself. The agents on business.wajo.ai are the workflows restaurant owners asked me for.</p>
+      </article>
+      <article>
+        <h3>Run the human side of Fo</h3>
+        <p>When Fo can't finish, a trained person steps in. As Fo grows that's a team doing thousands of tasks a day: hiring, quality, when to hand off, what each handoff costs, and feeding what humans learn back into the agent. I've run ops teams and I read agent traces.</p>
+      </article>
+    </div>
+    <p class="quiet" style="margin-top:1rem">Or tell me the crazy version and I'll build the plan for it.</p>
+  </section>
+
+  <section id="talk">
+    <div class="contact">
+      <h2>Twenty minutes, while I'm in SF</h2>
+      <p>Tell me where you want Fo to go and where I could contribute most. I'll come back with a plan for exactly that. If it's a fit, I'd relocate for it.</p>
+      <div class="links">
+        <a href="mailto:shayan.s.toor@gmail.com">shayan.s.toor@gmail.com</a>
+        <a href="tel:+19499102531">+1 949 910 2531</a>
+        <a href="https://www.linkedin.com/in/shayantoor">LinkedIn</a>
+        <a href="https://github.com/shayant101">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+<footer class="wrap">Built by Shayan Toor during SF Tech Week, October 2026. Not affiliated with Wajo, Inc.</footer>
+</body>
+</html>
